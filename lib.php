@@ -320,7 +320,7 @@ function mod_subcourse_cm_info_view(cm_info $cm) {
         $grades = grade_get_grades($cm->course, 'mod', 'subcourse', $cm->instance, $USER->id);
         $currentgrade = (empty($grades->items[0]->grades)) ? null : reset($grades->items[0]->grades);
 
-        if (($currentgrade !== null) and isset($currentgrade->grade) and !($currentgrade->hidden)) {
+        if (($currentgrade !== null) && isset($currentgrade->grade) && !($currentgrade->hidden)) {
             $strgrade = $currentgrade->str_grade;
             $html .= html_writer::tag('div', get_string('currentgrade', 'subcourse', $strgrade),
                 ['class' => 'contentafterlink']);
