@@ -25,6 +25,7 @@ namespace mod_subcourse\output;
 
 defined('MOODLE_INTERNAL') || die();
 
+global $CFG;
 require_once($CFG->dirroot . '/mod/subcourse/locallib.php');
 
 /**
