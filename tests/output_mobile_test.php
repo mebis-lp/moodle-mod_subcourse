@@ -23,11 +23,6 @@
 
 namespace mod_subcourse;
 
-defined('MOODLE_INTERNAL') || die();
-
-global $CFG;
-require_once($CFG->libdir . '/externallib.php');
-
 /**
  * Unit tests for the methods provided by the {@see \mod_subcourse\output\mobile} class.
  *

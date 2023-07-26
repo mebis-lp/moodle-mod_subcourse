@@ -41,7 +41,7 @@ class custom_completion extends \core_completion\activity_custom_completion {
 
     /**
      * Fetch the list of custom completion rules that this module defines.
-     * @return array 
+     * @return array
      */
     public static function get_defined_custom_rules(): array {
         return ['completioncourse'];

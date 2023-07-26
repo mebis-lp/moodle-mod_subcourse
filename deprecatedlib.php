@@ -16,13 +16,11 @@
 
 /**
  * Library of functions, classes and constants for module subcourse
- * 
+ *
  * @package     mod_subcourse
  * @copyright   2008 David Mudrak <david@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
-defined('MOODLE_INTERNAL') || die();
 
 /**
  * Obtains the automatic completion state for this subcourse.
